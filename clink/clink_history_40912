@@ -1,0 +1,8 @@
+|	time=1704274826
+nvim --version
+|	time=1704274931
+netsh winhttp set proxy 127.0.0.1:7890
+|	time=1704274940
+ping youtube.com
+|	time=1704274965
+ping google.com

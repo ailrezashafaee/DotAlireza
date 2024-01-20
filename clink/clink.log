@@ -1,0 +1,47 @@
+9fd0 app_context::start_logger  476 ---- 2024/01/03 13:10:15.668 -------------------------------------------------
+9fd0 app_context::start_logger  479 Host process is 'cmd.exe' (pid 40912)
+9fd0 app_context::start_logger  483 DLL path is 'C:\Program Files (x86)\clink'
+9fd0 app_context::start_logger  498 Windows version 10.0.19045 (x64)
+9fd0 app_context::start_logger  500 Clink version 1.6.0.3e6b73 (x64)
+9fd0 hook_setter::hook_setter  159 >>> Started hook transaction.
+9fd0 hook_setter::attach_iat   316 Attempting to hook SetEnvironmentVariableW in IAT for module 00007FF65EE00000.
+9fd0 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+9fd0 find_iat                  124 Found import at 00007FF65EE33860 (value is 00007FFF0E203490).
+9fd0 hook_setter::attach_iat   316 Attempting to hook SetEnvironmentStringsW in IAT for module 00007FF65EE00000.
+9fd0 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+9fd0 find_iat                  124 Found import at 00007FF65EE33888 (value is 00007FFF0E1FD560).
+9fd0 hook_setter::attach_iat   316 Attempting to hook WriteConsoleW in IAT for module 00007FF65EE00000.
+9fd0 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+9fd0 find_iat                  124 Found import at 00007FF65EE334F8 (value is 00007FFF0E1A76D0).
+9fd0 hook_setter::attach_iat   316 Attempting to hook GetEnvironmentVariableW in IAT for module 00007FF65EE00000.
+9fd0 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+9fd0 find_iat                  124 Found import at 00007FF65EE33880 (value is 00007FFF0E1C5430).
+9fd0 hook_setter::commit       207 <<< Hook transaction committed.
+9fd0 hook_setter::hook_setter  159 >>> Started hook transaction.
+9fd0 hook_setter::detach_iat   359 Attempting to unhook 00007FFEA9C0D480 from GetEnvironmentVariableW in IAT for module 00007FF65EE00000.
+9fd0 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+9fd0 find_iat                  124 Found import at 00007FF65EE33880 (value is 00007FFEA9C0D480).
+9fd0 hook_setter::commit       207 <<< Hook transaction committed.
+9fd0 hook_setter::hook_setter  159 >>> Started hook transaction.
+9fd0 hook_setter::attach_iat   316 Attempting to hook ReadConsoleW in IAT for module 00007FF65EE00000.
+9fd0 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+9fd0 find_iat                  124 Found import at 00007FF65EE334E0 (value is 00007FFF0E2B0CA0).
+9fd0 hook_setter::commit       207 <<< Hook transaction committed.
+9fd0 hook_setter::hook_setter  159 >>> Started hook transaction.
+9fd0 hook_setter::attach_iat   316 Attempting to hook SetConsoleTitleW in IAT for module 00007FF65EE00000.
+9fd0 pe_info::iterate_imports  195 Found import in 'api-ms-win-core-console-l2-2-0.dll'
+9fd0 find_iat                  124 Found import at 00007FF65EE33558 (value is 00007FFF0E216D10).
+9fd0 hook_setter::commit       207 <<< Hook transaction committed.
+9fd0 win_screen_buffer::begin  366 Using native terminal support (auto mode found 'WEZTERM_EXECUTABLE and WEZTERM_PANE').
+9fd0 host_lua::load_scripts    190 Loaded 0 Lua scripts in 1 ms (1 failed)
+9fd0 ={update.lua}               0 Clink updater: updating because there is no record of having updated before.
+9fd0 extract_ctag              920 read 0 bytes
+9fd0 extract_ctag              920 read 0 bytes
+9fd0 history_db::initialise   1258 master bank ctag: |CTAG_1704274815_185434562_40912_0
+9fd0 history_db::compact      1520 History:  0 active, 0 deleted
+9fd0 ={update.lua}               0 Clink updater: latest release is v1.6.0; install type is zip.
+9fd0 ={update.lua}               0 Clink updater: no update available; local version v1.6.0 is not older than latest release v1.6.0.
+9fd0 history_db::compact      1520 History:  0 active, 0 deleted
+9fd0 history_db::compact      1520 History:  0 active, 0 deleted
+9fd0 history_db::compact      1520 History:  0 active, 0 deleted
+9fd0 history_db::compact      1520 History:  0 active, 0 deleted
